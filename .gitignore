@@ -1,0 +1,9 @@
+artifacts/
+ddcExporter
+ddcExporter.exe
+hosts.txt
+*.pem
+.idea
+sar.txt
+ansible-playbook.yaml
+instr_config.json

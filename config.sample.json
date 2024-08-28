@@ -1,0 +1,30 @@
+{
+  "ssh": {
+    "user": "cloud-user",
+    "port": 22,
+    "key": "./key.pem",
+    "hosts": "./hosts.txt"
+  },
+  "http": {
+    "port": 9010
+  },
+  "instr": {
+    "cpu": {
+      "AllowedHostPattern": ".*",
+      "NotAllowedHostPattern": ""
+    },
+    "jvmMemory": {
+      "AllowedHostPattern": ".*",
+      "NotAllowedHostPattern": ""
+    }
+  },
+  "metrics": {
+    "sar": false,
+    "amos": false,
+    "instr": true,
+    "ps": false,
+    "pm": false,
+    "dpMediation": true,
+    "domainProxy": true
+  }
+}
